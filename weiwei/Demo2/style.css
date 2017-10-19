@@ -1,0 +1,104 @@
+body {
+    background-color: #DEDEDE;
+    display: block;
+    margin: 0;
+}
+
+#head nav {
+	background: #333333;
+    width: 100%;
+    padding: 0;
+}
+
+.lis {
+	float: right;
+    padding: 0;
+    margin-right:50px;
+}
+
+.lis li {
+	float: left;/*浮动,向左排序*/
+    font-size: 16px;
+    /*display: inline-table;*/
+    margin-right:30px;
+}
+
+#ls{
+	list-style-type: none;  /*列表前无小圆点*/
+}
+
+.doc{
+	margin: 15px 12px 15px 12px;
+    background: white;
+    border: 2px outset #DEDEDE;
+    padding: 2rem;
+}
+
+.bgg{
+	border-left: 5px solid grey;
+	
+	padding: 1px 10px;
+}
+
+.img{
+	margin: 20px 20px 20px 200px;
+	border: 2px solid #000;
+	width: 130px;
+	font-size: 16px;
+    font-family: "Microsoft Yahei";
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.img img {
+	background-position: center;
+}
+
+.img :hover{
+	border: 2px solid grey;
+}
+
+.tabs {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr td{
+	border: solid grey;
+}
+
+h3 {
+    color: grey;
+}
+
+h5 {
+    color: grey;
+}
+
+li :visited {
+    color: grey;
+}
+
+li :link {
+    text-decoration: none;
+}
+
+li :hover {
+	color: white;
+}
+
+footer{
+	text-align: center;
+	background-color: #000;
+	height: 50px;
+	width: 100%;
+	color: white;
+}
+
+.sub{
+	width: 80%;
+	background-color: blue;
+	height: 50px;
+
+}
+

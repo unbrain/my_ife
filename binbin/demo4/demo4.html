@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo4</title>
+
+	<style>
+		*{
+			magin:0;
+			padding:0;
+		}
+
+		#num{
+			margin: 20px;
+			width: 20%;
+			height: 2em;
+		}
+		button{
+			background-color: #fff;
+			margin-right: 20px;
+			border: 1px solid #000;
+			padding: 0.25em 0.5em;
+			border-radius: 0.5em;
+		}
+		#leftout{
+			margin-left: 50px;
+		}
+		#container{
+			margin: 20px;
+		}
+		span{
+			padding: 0.5em;
+			background-color: #f00;
+			margin-right: 0.5em;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<input type="text" class="form-control" id="num" placeholder="请输入数字">
+		<button type="button" id="leftin" >左侧入</button>
+		<button type="button" id="rightin">右侧入</button>
+		<button type="button" id="leftout">左侧出</button>
+		<button type="button" id="rightout">右侧出</button>
+	</div>
+	<div id=container></div>
+	<script>
+		var leftin = document.getElementById("leftin");
+		var rightin = document.getElementById("rightin");
+		var leftout = document.getElementById("leftout");
+		var rightout = document.getElementById("rightout");
+		var num = document.getElementById("num");
+		var add = document.getElementById("container");
+		
+		leftin.onclick = function(){
+		  //alert(num);
+		  api = document.createElement('span');
+		  api.innerText = num.value;
+		  add.insertBefore(api, add.firstElementChild)
+		  num.value = null;
+		}
+		rightin.onclick = function(){
+		  //alert(num);
+		  api = document.createElement('span');
+		  api.innerText = num.value;
+		  add.appendChild(api);
+		  num.value = null;
+		}
+		leftout.onclick = function(){
+		  alert(add.firstElementChild.innerText);
+		  add.firstElementChild.remove();
+		}
+		rightout.onclick = function(){
+		  alert(add.lastElementChild.innerText);
+		  add.lastElementChild.remove();
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+.container{
+	background-color: #eee;
+	border: 1px solid #999;
+	margin: 20px;
+	overflow: auto;
+}
+
+
+.container div {
+	background-color: #fff;
+	border: 1px solid #999;
+	display: inline-block;
+}
+
+.left {
+	width: 200px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.main {
+	width: 800px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.right {
+	float: right;
+	margin: 20px;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+}
+
+.right img{
+	display: block;
+	margin:20px;
+}
+
+span{
+	position: relative;
+    left: 20px;
+    top: -60px;
+}
+

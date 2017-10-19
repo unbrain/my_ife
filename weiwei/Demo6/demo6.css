@@ -1,0 +1,420 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*整体*/
+body {
+    box-sizing: border-box;
+    width: 980px;
+    height: 1386px;
+    padding: 0 44px ;
+    border: 1px solid #000;
+    margin: 0 auto;
+
+}
+
+/*头部*/
+.top {	
+	width: 892px;
+	height: 61px;
+    position: relative;
+}
+
+.top p {
+	width: 110px;
+	height: 61px;
+	font-family: "黑体"；
+	color: #000;
+    padding:0 5px;
+    font-size: 12px;
+    line-height: 100px;/*实现文字底部显示*/
+	background-color: #d45d5c;
+}
+/*头部右边时间*/
+.top span {
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+	color: #d45d5c;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+}
+
+.hr {
+	width: 100%；
+	color: #938e8c;
+	height: 2px;
+}
+/*图片1*/
+.part1 {
+    height:301px;
+    margin: 25px 0; 
+}
+
+.img1 {
+	position: relative;
+	display: inline-block;
+	width: 641px;
+	height: 301px;
+	background-image: url("./Mono Wall.jpg");
+}
+
+.green {
+	position: absolute;
+	left: 0;
+	width: 191px;
+	height: 301px;
+	background: #94b697;
+	opacity: 0.3;
+	z-index: 1;
+}
+
+.red {
+	position: absolute;
+	right: 0;
+	width: 191px;
+	height: 301px;
+	background: #b67673;
+	opacity: 0.3;
+	z-index: 1;
+}
+
+.part1r {
+	float: right;
+	margin-left: 44px;
+	height: 301px;
+	width: 203px
+}
+
+.horizon-right{
+    width: 203px;
+    height: 2px;
+    background: #cc8091;
+}
+
+.title1 {
+    font-size: 24px;
+    color: #000;
+    font-family: "Microsoft Yahei";
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+.title2 {
+	font-size: 12px;
+	line-height: 10px;
+	color: #676767;
+	font-family: "KaiTi";
+}
+
+.number1 {
+	font-size: 116px;
+	color: #000;
+    font-family: "Microsoft Yahei";	
+    font-style: oblique;
+}
+
+.number2 {
+	float: left;
+	font-size: 55px;
+	color: #000;
+    font-family: "Microsoft Yahei";
+}
+
+.text1 {
+	margin-top:20px;
+    margin-left: 82px;
+	font-size: 21px;
+	color: #000;
+    font-family: "Microsoft Yahei";
+}
+
+.text2 {
+	margin-left: 82px;
+	font-size: 12px;
+	color: #000;
+    font-family: "Microsoft Yahei";
+}
+
+.part2 {
+	width: 641px;
+	height: 301px;
+
+}
+
+.what {
+	float: left;
+	width: 40%;
+	font-size: 12px;
+	color: #727777;
+	font-family: "SimSun";
+	opacity: 0.7;
+	line-height: 16px;
+	box-sizing: border-box;
+}
+
+.what p {
+	font-size: 16px;
+	color: #418c59;
+	font-family: "Microsoft Yahei" ;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 32px;
+}
+
+.when {
+	float: left;
+	padding-left: 20px;
+	width: 30%;
+	font-size: 12px;
+	color: #231815;
+	font-family: "SimSun";
+	opacity: 0.7;
+	line-height: 16px;
+	box-sizing: border-box;
+}
+
+.when p{
+	font-size: 16px;
+	color: #d2994f;
+	font-family: "Microsoft Yahei" ;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 32px;	
+}
+
+.how {
+	float: left;
+	padding-left: 20px;
+	width: 30%;
+	font-size: 12px;
+	color: #cd4a48;
+	font-family: "SimSun";
+	opacity: 0.7;
+	line-height: 16px;
+	box-sizing: border-box;	
+}
+
+.how p{
+	font-size: 16px;
+	color: #cc7680;
+	font-family: "Microsoft Yahei" ;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 32px;
+}
+
+.part3{
+     margin: 20px 0;
+     width: 892px;
+     height: 595px;
+
+}
+
+.part3-left{
+    float: left;
+    width: 415px;
+}
+
+.caption-left {
+	font-size: 42px;
+	color: #11456b;
+	font-style: bold;	
+	font-family: "SimHei";
+}
+
+.caption-left span {
+	font-size: 72px;
+	color: #f5e327;	
+	font-style: oblique;
+}
+
+.caption-left p {
+	font-size: 33px;
+}
+
+.horizon-left {
+	background-color: #11456b;
+	height: 2px;
+	width: 415px;
+}
+
+.content-left {
+	font-size: 12px;
+	color: #767777;
+	font-family: "SimSun";
+	line-height: 16px;
+	text-indent: 2em;
+	text-height: 16px;
+}
+
+.content-left p:first-child{
+    text-indent: 0em;
+}
+/*首字下沉*/
+.content-left p:first-child::first-letter{
+    font-size: 70px;
+    line-height: 70px;
+    color: #f5e327;
+    font-family: "Microsoft Yahei" ;
+    float: left;
+    margin: 0 0.2em 0 0;
+}
+
+.content-left img {
+	float: right;
+	margin: 5px 0px 5px 5px;
+}
+
+.part3-right{
+    float: right;
+    width: 458px;
+}
+
+.img{
+    width: 458px;
+    height: 257px;
+    position: relative;
+    background-image: url("2.jpg");
+}
+
+.text-shadow{
+    height: 61px;
+    width: 458px;
+    position: absolute;
+    bottom: 0px;
+    background:#231815;
+    opacity: 0.5;
+}
+
+.text-border{
+    height: 44px;
+    font-size: 26px;
+    line-height: 44px;
+    color: #ffffff;
+    font-family: "Microsoft Yahei" ;  
+    border-left: 3px solid #72b16a;
+    padding-left: 10px;
+    margin: 8px 0 8px 40px;
+}
+
+.text-border span{
+    font-size: 12px;
+    color: #72b16a;
+    font-style: oblique;
+    font-family: "Microsoft Yahei" ; 
+    line-height: 140%;
+}
+
+.content-right{
+    width: 459px;
+    height: 318px;
+    background: #eeedd6;
+    margin-top: 20px;
+}
+
+.content-right ul{
+    width: 420px;
+    height: 100px;
+    padding: 29px 10px 29px 29px;
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family:  "SimSun";
+    text-align: left;
+    line-height: 32px;
+    list-style: none;
+}
+
+/*画三角形*/
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #10456b;
+    display: inline-block;
+}
+
+.content-right ul span{
+    font-family: "SimSun" ;
+    font-size:  12px;
+    font-style:  oblique;
+    color: #5a5b5b;
+    text-align: right;
+}
+
+.caption-right{
+    width: 240px;
+    height: 86px;
+    background: #d45d5c;
+    padding: 37px 10px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "simhei";
+    line-height: 14px;
+    float: left;
+}
+
+.o{
+    height: 86px;
+    float: left;
+    border-right: 2px solid #ffffff;
+    font-size: 110px;
+    color: #ffffff;
+    font-family: "Microsoft Yahei";
+    line-height: 86px;
+    margin-right: 10px;
+}
+
+.caption-right span{
+    font-size: 21px;
+    color: #ffffff;
+    font-family: "simhei";
+    font-style: oblique;
+    line-height: 28px;
+}
+
+.caption-text{
+    float: right;
+    width: 180px;
+    height: 160px;
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family:  "simhei";
+    font-style: oblique;
+    line-height: 16px;
+    
+}
+
+.caption-text span{
+    font-size: 72px;
+    color: #d45d5c;
+    font-family:  "simhei";
+}
+
+.caption-text span:first-child{
+      float: left;
+      margin: 20px 20px -20px -50px;
+     
+}
+
+.caption-text span:last-child{
+      float: right;
+      margin-top: 30px 
+}
+
+/*页脚*/
+.footer{
+    width: 892px;
+    text-align: right;
+    font-size: 12px;
+    color: #d45d5c;
+    font-family:  "simhei";
+}
+
+.horizon-bottom{
+    width: 892px;
+    height: 1px;
+    background: #938e8c;
+}

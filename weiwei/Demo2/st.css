@@ -1,0 +1,116 @@
+body {
+	background-color: #DEDEDE;
+/*    display: block;*/
+    margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 74px;
+	background-color: grey;
+}
+
+nav ul {
+	float: right;
+    padding: 10px;
+    margin-right:50px;
+}
+
+
+nav ul li {
+	float: left;
+	margin-right: 50px;
+}
+
+li :visited {
+    color: grey;
+}
+
+li :link {
+    text-decoration: none;
+}
+
+li :hover {
+	color: white;
+}
+
+h3 {
+	color: grey;
+}
+
+h5 {
+	color: grey;
+}
+
+.test {
+	border: 2px outset #DEDEDE;
+	margin: 15px 15px 15px 15px;
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.imgs {
+	padding-left: 100px;
+}
+
+.imgss {
+	text-align: center;
+	border: 1px solid #000;
+	padding: 2px 20px;
+	width: 300px;
+	background-position: center;
+	margin: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr td{
+	border: 1px solid #DEDEDE;
+}
+
+th {
+	background-color: #000;
+	color: white;
+}
+
+.test h4 {
+	border-left-style:solid;
+	border-color: grey;
+	height: 40px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+footer {
+	width: 100%;
+	background-color: #000;
+	height: 100px;
+	padding-top:10px;
+}
+
+footer p{
+	text-align: center;
+	color: #fff;
+}
+form {
+	font-size:0.8em;
+	line-height:2.5;
+}
+
+span {
+	position:absolute;
+	right:60%;
+}
+
+input {
+	position:absolute;
+	left:42%;
+}
+/*
+form select {
+	position:absolute;
+	left:42%;
+}*/

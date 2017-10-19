@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>demo1</title>
+</head>
+<body>
+	<h1>网站一级标题</h1>
+	<nav>
+		<ul>
+			<li><a href="#">导航链接1</a></li>
+			<li><a href="#">导航链接2</a></li>
+			<li><a href="#">导航链接3</a></li>
+			<li><a href="#">导航链接4</a></li>
+		</ul>
+	</nav>
+	<h2>文章一级标题</h2>
+	<h3>文章二级标题</h3>
+	<p>文章作者 文章时间</p>
+	<p>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。<br>换行了<br>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢,换行了<br>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。<a href="https://unbrain.github.io/">这是到网站~</a>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，<strong>希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。</strong></p>
+	<img src="demo1img.png">
+	<p>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。<br>换行了<br>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢,换行了<br>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。<a href="https://unbrain.github.io/">这是个链接到网站https://unbrain.github.io/~</a>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。</p>
+
+	<h2>又一个一级标题</h2>
+	<h3>有一个二级标题</h3>
+	<p>文章作者 文章时间</p>
+	<p>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。<br>换行了<br>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢,换行了<br>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。<a href="https://unbrain.github.io/">这是到网站~</a>这是一个很无聊很冗长的段落，希望你喜欢。这是一个很无聊很冗长的段落，<strong>希望你喜欢。这是一个很无聊很冗长的段落，希望你喜欢。</strong></p>
+	<img src="demo1img.png">
+	<ul>
+		<li>列表项目1</li>
+		<li>列表项目2</li>
+		<li>列表项目3</li>
+	</ul>
+
+	<h2>图片</h2>
+
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+	<p>好看的图片</p>
+	<img src="demo1img.png">
+
+	<h2>最后一个文章一级标题</h2>
+	<h3>最后一个文章二级标题</h3>
+	<p>文章作者 文章时间</p>
+
+	<ol>
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	</ol>
+
+	<p>下面是一个表格，加入了···的元素</p>
+	<table border="1">
+		<tr>
+			<td>表头</td>
+			<td>表头</td>
+			<td>表头</td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>总计</td>
+			<td colspan="2">1000</td>		
+		</tr>
+	</table>
+
+	<h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+	<h3>侧栏注册标题</h3>
+	<form>
+		名字: <input type="text" name="name"><br>
+	</form>
+	<p>请按格式输入</p>
+	<form >
+		密码：<input type="password" name="password">再输入你的密码：<input type="password" name="password">
+	</form>
+	<p>密码为6-16位字母</p>
+	
+	<form>
+	<span>性别：</span>
+	<input type="radio" name="sex" value="male" checked="checked">男
+	<input type="radio" name="sex" value="female">女
+	<span>城市：</spanspan>
+	<select>
+			<option>北京</option>
+			<option>上海</option>
+			<option>广州</option>
+			<option>深圳</option>
+			<option>杭州</option>
+	</select>
+	<span>爱好：</span>
+	<input type="checkbox" name="vehicle" value="qiu">球
+	<input type="checkbox" name="vehicle" value="Car">车
+	<span>个人描述：</span> 
+	<textarea placeholder="这是一个多行输入框,输入您的个人描述"></textarea>
+	<input type="submit" value="Submit">
+	</form>
+
+	<footer>
+		<p>版权所有©</p>
+	</footer>
+</body>
+</html>
